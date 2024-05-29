@@ -23,7 +23,7 @@
       <div 
         v-for="(tarjeta, idx) in tarjetes" :key="idx"
         :id="tarjeta.etiqueta"
-        class="q-my-xl"
+        :class="{'q-my-xl': !['cmp01', 'cmp02'].includes(tarjeta.componente) }"
       >
           <component :is="tarjeta.componente"></component>        
       </div>
@@ -60,7 +60,7 @@ export default defineComponent({
   setup(){
     const tarjetes = ref([
       { etiqueta: 'historia', titol: "", componente: 'cmp01' },
-      // { etiqueta: 'casament', titol: "", componente: 'cmp02' },
+      { etiqueta: 'casament', titol: "", componente: 'cmp02' },
       { etiqueta: 'cerimonia', titol: 'La cerimonia', componente: 'cmp03' },
       { etiqueta: 'banquet', titol: 'El banquet', componente: 'cmp04' },
       { etiqueta: 'transport', titol: 'El transport', componente: 'cmp05' },

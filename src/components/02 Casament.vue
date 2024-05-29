@@ -1,33 +1,43 @@
 <template>
   <!-- <q-img src="~assets/022 Casament.svg" ></q-img> -->
   
-  
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   <!-- <q-icon name="img:~assets/022 Casament.svg" /> -->
 
-  <!-- <div id="imatge" class="" >
-    
-    
-    <p class="text-teal-8 text-center text-bold q-mt-md q-pa-xl q-ma-xl" style="width: 80%; font-size: 30px">
-      <div class="titol">EL CASAMENT</div>
-      <div class="q-my-lg" style="">
-        Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.
+  
+  <div class="tarjeta">
+
+    <!-- <div id="imatge" class="pare" >
+      <div class="column justify-start text-center fill" style="width: 100%; height: 100%">
+        <div class="col-auto titol text-black" >EL CASAMENT</div>
+        <div class="col-auto " >Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.</div>
+        <div class="col" >
+          Video
+        </div>
       </div>
-      <q-btn color="teal-8" size="lg" rounded>Confirmar assistència</q-btn>
-    </p>
-  </div> -->
+    </div> -->
+
+    <q-img
+        src="~assets/02Casament_3.png"
+        spinner-color="white"
+        style="width: 100%;"
+        class=""
+      >
+        <div class="column justify-start text-center" style="width: 100%; height: 100%; visibility: hidden;">
+          <div class="col-auto titol" style="visibility: visible;">EL CASAMENT</div>
+          <div class="col-auto text-verd"  style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.</div>
+          <div class="col q-pa-xl"  style="visibility: visible;">
+            <q-video
+              class=""
+              :ratio="16/9"
+              src="https://www.youtube.com/embed/UsplDbcEcKQ?rel=0"
+            />
+          </div>
+        </div>
+
+    </q-img>
     
+  </div>  
+
 
 </template>
 
@@ -39,8 +49,6 @@ import {defineComponent, ref} from 'vue';
 export default defineComponent({
   
   setup() {
-    
-
     return {
       
     }
@@ -50,7 +58,23 @@ export default defineComponent({
 </script>
 
 <style scoped>
-  #imatge{
+
+  .text-verd {
+    color: #687756 !important;
+  }; 
+  .bg-verd {
+    background: #687756 !important;
+  };
+
+
+
+
+
+
+
+
+
+  /* #imatge{
     display: grid;
     place-items: center;
     background-image: url('../assets/02elCasament.jpg');
@@ -72,6 +96,6 @@ export default defineComponent({
 
   p{
     isolation: isolate;    
-  }
+  } */
 
 </style>

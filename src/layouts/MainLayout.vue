@@ -25,7 +25,7 @@
           <q-btn flat type="a" to="#banquet" class="col text-center text-bold " label="BANQUET" />
           <q-btn flat type="a" to="#transport" class="col text-center text-bold " >TRANSPORT</q-btn>
           <q-btn flat type="a" to="#regal" class="col text-center text-bold " >REGAL</q-btn>
-          <q-btn class="q-pa-md text-bold " color="grey-10" outline href="https://docs.google.com/forms/d/1QNklZZjEyXUcWbZ2XeLP64tQstSVw6bpwxqgE90VdvY/edit" target="_blank">CONFIRMA ASSISTÈNCIA</q-btn>
+          <q-btn class="q-pa-md text-bold " color="grey-10" outline href="https://linktr.ee/claragerard" target="_blank">CONFIRMA ASSISTÈNCIA</q-btn>
 
         </div>
       </div>  
@@ -129,7 +129,7 @@ const linksList = [
     title: 'CONFIRMAR ASSISTÈNCIA',
     caption: 'confirmar',
     icon: './menuDit.svg#svg1',
-    link: 'https://docs.google.com/forms/d/1QNklZZjEyXUcWbZ2XeLP64tQstSVw6bpwxqgE90VdvY/edit'
+    link: 'https://linktr.ee/claragerard'
   }
 ]
 

@@ -1,18 +1,40 @@
 <template>
   <div class="">
 
-    <img
+    <!-- <div style="width: 100%; background-image: './01GerardClara3.jpg'"> -->
+    <!-- <div id="divImatge">
+      <p>hola cocacola</p>
+    </div> -->
+    
+
+    <q-img
+      src="~assets/01GerardClara4.jpg"
+      spinner-color="white"
+      style="width: 100%;"
+    >
+      <div class="column justify-end " style="width: 100%; height: 100%; visibility: hidden">
+        <!-- <div class="col"></div> -->
+        <div class="col-3 text-center">
+          <q-btn class="tarjeta" rounded color="white" text-color="verd" label="CONFIRMAR ASSISTÈNCIA" style="visibility: visible" href="https://linktr.ee/claragerard" target="_blank"/>
+        </div>
+      </div>
+
+    </q-img>
+    
+    <!-- <img
       alt="Quasar logo"
       src="~assets/01GerardClara3.jpg"
       style="width: 100%;"
-    >
+    > -->
 
     
     <!-- <q-card class="absolute-top text-h6 bg-green-2 text-center text-grey-8 q-ma-lg">Clara & Gerard <br/>19 - octubre - 2024</q-card> -->
 
 
 
-    <svg
+
+
+    <!-- <svg
     width="100%"
     viewBox="0 0 135.46666 101.6"
     version="1.1"
@@ -139,7 +161,7 @@
             x="201.75998"
             y="259.38707"
             id="tspan16">CONFIMRAR ASSISTÈNCIA</tspan></text></a></g>
-    </svg>
+    </svg> -->
   
 
 
@@ -163,13 +185,31 @@ export default defineComponent({
 
 
 
-<style>
+<style lang="css" >
 
 /* @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Protest+Riot&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Smooch+Sans:wght@100..900&display=swap'); */
+
+  .text-verd {
+    color: #687756 !important;
+  }; 
+  .bg-verd {
+    background: #687756 !important;
+  };
+
+
 
   .q-card{
     font-family: 'Dancing Script', Times, serif;
   };
 
+  #divImatge {
+    /* background-image: url("~assets/01GerardClara3.jpg"); */
+    /* background-image: url("/01GerardClara3.jpg"); */
+    /* background-color:blue; */
+    color: red;
+    width: 100%;
+  };
+
+ 
 </style>

@@ -91,7 +91,7 @@ export default defineComponent({
 
 
 
-<style>
+<style scoped>
 
 * {
   -webkit-box-sizing: border-box;
