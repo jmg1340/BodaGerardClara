@@ -4,7 +4,7 @@
   <!-- <q-icon name="img:~assets/022 Casament.svg" /> -->
 
   
-  <div class="tarjeta">
+  <div class="tarjeta bg-grey-5">
 
     <!-- <div id="imatge" class="pare" >
       <div class="column justify-start text-center fill" style="width: 100%; height: 100%">
@@ -17,25 +17,27 @@
     </div> -->
 
     <q-img
-        src="~assets/02Casament_3.png"
+        src="~assets/02Casament_4.png"
         spinner-color="white"
         style="width: 100%;"
         class=""
       >
-        <div class="column justify-start text-center" style="width: 100%; height: 100%; visibility: hidden;">
-          <div class="col-auto titol" style="visibility: visible;">EL CASAMENT</div>
-          <div class="col-auto text-verd"  style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.</div>
-          <div class="col q-pa-xl"  style="visibility: visible;">
-            <q-video
-              class=""
-              :ratio="16/9"
-              src="https://www.youtube.com/embed/UsplDbcEcKQ?rel=0"
-            />
+        <div class="column justify-center text-center" style="width: 100%; height: 100%; visibility: hidden;">
+          <div class="col-auto titol q-mt-xl" style="visibility: visible;">EL CASAMENT<br/>
+          <span class="col text-verd "  style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.</span>
+          <!-- <div class="col"  style="visibility: visible;"> -->
           </div>
         </div>
+        
+      </q-img>
+      
+      <q-video
+        class="q-mx-xl q-mb-xl"
+        :ratio="16/9"
+        src="https://www.youtube.com/embed/UsplDbcEcKQ?rel=0"
+      />
 
-    </q-img>
-    
+
   </div>  
 
 

@@ -96,10 +96,10 @@ const linksList = [
   //   link: '#inici'
   // },
   {
-    title: 'El casament',
+    title: 'Història',
     caption: '',
     icon: './menuParella.svg#svg1',
-    link: '#casament'
+    link: '#historia'
   },
   {
     title: 'La cerimònia',
