@@ -16,26 +16,29 @@
       </div>
     </div> -->
 
+
+
     <q-img
-        src="~assets/02Casament_4.png"
-        spinner-color="white"
-        style="width: 100%;"
-        class=""
-      >
-        <div class="column justify-center text-center" style="width: 100%; height: 100%; visibility: hidden;">
-          <div class="col-auto titol q-mt-xl" style="visibility: visible;">EL CASAMENT<br/>
-          <span class="col text-verd "  style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.</span>
-          <!-- <div class="col"  style="visibility: visible;"> -->
-          </div>
+      src="~assets/02Casament_3.png"
+      spinner-color="white"
+      width= "100%"
+    >
+      <div class="column justify-center text-center" style="width: 100%; height: 100%; visibility: hidden;">
+        <div class="col-2 titol " style="visibility: visible; ">EL CASAMENT</div>
+        <div class="col-8 text-verd" style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.
+        <!-- <div class="col"  style="visibility: visible;"> -->
         </div>
-        
-      </q-img>
-      
-      <q-video
-        class="q-mx-xl q-mb-xl"
-        :ratio="16/9"
-        src="https://www.youtube.com/embed/UsplDbcEcKQ?rel=0"
-      />
+      </div>
+    </q-img>
+
+
+    
+    <q-video
+      id="videoTN"
+      class="q-mx-sm q-mb-md"
+      :ratio="16/9"
+      src="https://www.youtube.com/embed/UsplDbcEcKQ?rel=0"
+    />
 
 
   </div>  
@@ -45,12 +48,14 @@
 
 
 <script>
-import {defineComponent, ref} from 'vue';
-
+import {defineComponent } from 'vue';
+import { dom } from 'quasar'
 
 export default defineComponent({
   
   setup() {
+    
+
     return {
       
     }
@@ -67,11 +72,6 @@ export default defineComponent({
   .bg-verd {
     background: #687756 !important;
   };
-
-
-
-
-
 
 
 

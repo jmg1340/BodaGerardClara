@@ -102,6 +102,11 @@ body.screen--lg {
     color:#76766b;
     font-size: 34px;
   };  
+
+  #videoTN {
+    margin-top: -600px;
+  }
+
 }
 
 
@@ -124,7 +129,12 @@ body.screen--md {
     font-family: 'Open Sans', 'Courier New', Arial, Helvetica, sans-serif;
     color:#76766b;
     font-size: 30px;
-  };  
+  }; 
+
+
+  #videoTN {
+    margin-top: -400px;
+  }
 
 }
 
@@ -147,7 +157,11 @@ body.screen--sm {
     font-family: 'Open Sans', 'Courier New', Arial, Helvetica, sans-serif;
     color:#76766b;
     font-size: 24px;
-  };  
+  }; 
+
+  #videoTN {
+    margin-top: -200px;
+  }
 
 }
 
@@ -169,6 +183,11 @@ body.screen--xs {
   .tarjeta{
     font-family: 'Open Sans', 'Courier New', Arial, Helvetica, sans-serif;
     font-size: 20px;
+    color: #76766b;  
+  };  
+  .tarjeta.foto{
+    font-family: 'Open Sans', 'Courier New', Arial, Helvetica, sans-serif;
+    font-size: 10px;
     color: #76766b;  
   };  
 

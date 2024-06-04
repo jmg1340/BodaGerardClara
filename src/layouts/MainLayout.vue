@@ -57,7 +57,7 @@
       v-model="leftDrawerOpen"
       bordered
       side="right"
-      width="20px"
+      :width="200"
 
     >
       <q-list bordered separator class="menuFont">
