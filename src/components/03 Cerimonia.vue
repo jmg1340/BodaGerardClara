@@ -13,7 +13,7 @@
 
         <div class="titol">LA CERIMÒNIA</div>
         <div class="q-mx-m" style="">
-          La cerimònia nupcial es durà a terme a les 13:00h a l'església de Sant Antoni de Vilamajor. Un escenari idíl·lic per a l'inici d'una nota etapa a la vida de la Clara i el Gerard.
+          La cerimònia nupcial es durà a terme a les 13:00h a l'església de Sant Antoni de Vilamajor. Un escenari idíl·lic per a l'inici d'una nova etapa a la vida de la Clara i el Gerard.
         </div>
         <!-- <div class=""> -->
 

@@ -30,7 +30,7 @@
         <div class="column justify-center q-pa-xs">
           <div class="titol">EL BANQUET</div>
           <div class="q-my-md" >
-            El convit se celebrarà a La Roureda a las 15h. Hem escollit un lloc que reflecteixi la nostra essència, ubicat en plena natura i envoltat d’arbres i bosc per celebrar aquest dia tan especial amb tots vosaltres.
+            El convit es celebrarà a La Roureda a las 15h. Hem escollit un lloc que reflecteixi la nostra essència, ubicat en plena natura i envoltat d’arbres i bosc per celebrar aquest dia tan especial amb tots vosaltres.
           </div>
 
           <!-- <q-btn color="brown-7" icon="map" label="Mapa" href="https://maps.app.goo.gl/rt4QAGwjCL3oEdqh7" target="_blank" style="width: 200px;" /> -->

@@ -15,7 +15,7 @@
       <div class="column justify-end " style="width: 100%; height: 100%; visibility: hidden">
         <!-- <div class="col"></div> -->
         <div class="col-3 text-center">
-          <q-btn class="tarjeta foto" glossy rounded color="white" text-color="verd" label="CONFIRMAR ASSISTÈNCIA" style="visibility: visible" href="https://linktr.ee/claragerard" target="_blank"/>
+          <q-btn class="tarjeta foto" rounded color="white" text-color="verd" label="CONFIRMAR ASSISTÈNCIA" style="visibility: visible" href="https://linktr.ee/claragerard" target="_blank"/>
         </div>
       </div>
 
