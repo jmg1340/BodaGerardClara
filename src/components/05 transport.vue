@@ -3,8 +3,8 @@
 
     <div class="text-center q-mt-lg">
       <div class="titol">TRANSPORT</div>
-      <div class="">
-        Per tots aquells que ho desitgeu, disposareu d'autobús pel desplaçament. L'adreça tant de recollida com de tornada serà desde Pg. de la Bonanova, 96, Sarrià-Sant Gervasi, 08017, Barcelona
+      <div class="q-mx-sm">
+        Per tots aquells que ho desitgeu, disposareu d'autobús pel desplaçament. L'adreça tant de recollida com de tornada serà desde carrer l'Hort de la Vila, 65, Barcelona.
       </div>
     </div>
   

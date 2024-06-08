@@ -29,8 +29,8 @@
       <div class="col-md-6" style="">      
         <div class="column justify-center q-pa-xs">
           <div class="titol">EL BANQUET</div>
-          <div class="q-my-md" >
-            El convit es celebrarà a La Roureda a las 15h. Hem escollit un lloc que reflecteixi la nostra essència, ubicat en plena natura i envoltat d’arbres i bosc per celebrar aquest dia tan especial amb tots vosaltres.
+          <div class="q-my-md q-mx-sm text-center" >
+            El convit se celebrarà a La Roureda a las 15h. Hem escollit un lloc que reflecteixi la nostra essència, ubicat en plena natura i envoltat d’arbres i bosc per celebrar aquest dia tan especial amb tots vosaltres.
           </div>
 
           <!-- <q-btn color="brown-7" icon="map" label="Mapa" href="https://maps.app.goo.gl/rt4QAGwjCL3oEdqh7" target="_blank" style="width: 200px;" /> -->
@@ -46,28 +46,28 @@
 
       <div class="col">
         
-        <div class="column q-gutter-sm" style="">
-            <div class="row justify-center q-gutter-sm">
+        <div class="column " style="">
+            <div class="row justify-center">
               <img
-                class="col-12 col-md-5"
+                class="col-12 col-md-5 q-ma-xs"
                 src="~assets/04_1.jpg"
                 style="widthx: 70%;"
               >
               <img
-                class="col-12 col-md-5"
+                class="col-12 col-md-5 q-ma-xs"
                 src="~assets/04_2.jpg"
                 style="widthx: 50%;"
               >
             </div>
 
-            <div class="row justify-center q-gutter-sm">
+            <div class="row justify-center">
               <img
-                class="col-12 col-md-5"
+                class="col-12 col-md-5 q-ma-xs"
                 src="~assets/04_3.jpg"
                 style="widthx: 100%;"
               >
               <img
-              class="col-12 col-md-5"
+              class="col-12 col-md-5 q-ma-xs"
                 src="~assets/04_4.jpg"
                 style="widthx: 100%;"
               > 

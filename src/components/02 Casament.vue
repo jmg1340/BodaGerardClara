@@ -25,7 +25,7 @@
     >
       <div class="column justify-center text-center" style="width: 100%; height: 100%; visibility: hidden;">
         <div class="col-2 titol " style="visibility: visible; ">EL CASAMENT</div>
-        <div class="col-8 text-verd" style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el nostre compromís i la nostra unió.
+        <div class="col-8 text-verd" style="visibility: visible;">Feliços de compartir un dels dies més especials de les nostres vides amb tots vosaltres on celebrarem el compromís i unió.
         <!-- <div class="col"  style="visibility: visible;"> -->
         </div>
       </div>

@@ -9,7 +9,7 @@
 
     </div>
     <div class="col-12 col-md-6">
-      <div class="column q-mx-md q-mb-md">
+      <div class="column q-mx-md q-mb-md text-center">
         <div class="titol">REGAL</div>
         <div class="col">El millor regal és poder gaudir amb vosaltres d’aquest dia tan especial. Si voleu tenir un detall amb nosaltres, ens encantaria que poguéssiu sumar quilòmetres al nostre viatge.</div>
         <div class="col">Gràcies per compartir aquesta nova etapa amb nosaltres!</div>
