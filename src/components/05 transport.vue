@@ -4,7 +4,7 @@
     <div class="text-center q-mt-lg">
       <div class="titol">TRANSPORT</div>
       <div class="q-mx-sm">
-        Per tots aquells que ho desitgeu, disposareu d'autobús pel desplaçament. L'adreça tant de recollida com de tornada serà desde carrer l'Hort de la Vila, 65, Barcelona.
+        Per tots aquells que ho desitgeu, disposareu d'autobús pel desplaçament. L'adreça tant de recollida com de tornada serà a carrer l'Hort de la Vila, 65, Barcelona.
       </div>
     </div>
   
